@@ -1,8 +1,5 @@
 <template>
   <div class="container mx-auto flex flex-col items-center bg-gray-100 p-4">
-    <div
-      class="fixed w-100 h-100 opacity-80 bg-purple-800 inset-0 z-50 flex items-center justify-center"
-    ></div>
     <div class="container">
       <section>
         <div class="flex">
@@ -192,4 +189,4 @@ export default defineComponent({
 });
 </script>
 
-<style src="./app.css"></style>
+<style src="@/assets/tailwind.css"></style>
